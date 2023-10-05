@@ -117,11 +117,12 @@ body {
   animation-delay: 1.6s;
 }
 .home-content .btn-box {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-between;
   width: 345px;
   height: 50px;
+  
 }
 .home-content .btn-box::before {
     content: "";
@@ -203,6 +204,17 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 2.5s;
     z-index: 2;
+  }
+  .photo{
+    margin-left: 100px;
+    /* border: 2px solid red; */
+    /* padding-left: 100px; */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .photo img{
+    height: 100%;
+    width: 100%;
   }
 
 .home-sci a {
